@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>งานทะเบียนรถ</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Sarabun", Arial, sans-serif;
+      background: linear-gradient(180deg, #0b1f4d, #163a7a);
+      min-height: 100vh;
+      padding: 16px;
+    }
+
+    .card {
+      max-width: 420px;
+      margin: auto;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    }
+
+    .header {
+      text-align: center;
+      color: #fff;
+      padding: 24px 16px;
+      background: linear-gradient(135deg,#0b1f4d,#1e4d97);
+    }
+
+    .header img {
+      width: 70px;
+      margin-bottom: 10px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .body {
+      padding: 16px;
+      background: #f5f8fc;
+    }
+
+    .menu-box {
+      background: #fff;
+      border-radius: 14px;
+      padding: 14px;
+      border: 1px solid #e2e8f3;
+    }
+
+    .menu-item {
+      display: block;
+      padding: 14px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      color: #0b1f4d;
+      margin-bottom: 10px;
+      background: #f0f4fa;
+      transition: 0.2s;
+    }
+
+    .menu-item:hover {
+      background: #e0ebff;
+    }
+
+    .menu-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .footer {
+      padding: 16px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 12px;
+      background: #0b1f4d;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <!-- HEADER -->
+  <div class="header">
+    <img src="logo-spk.png">
+    <h1>งานทะเบียนรถ</h1>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <div class="menu-box">
+
+      <!-- คู่มือ -->
+      <a class="menu-item"
+         href="https://drive.google.com/file/d/1_GR_exT-Pf8QPbGKa38XQXxYN9gCEamT/view"
+         target="_blank">
+        📄 คู่มือประชาชน (ทะเบียนรถยนต์)
+      </a>
+
+      <a class="menu-item"
+         href="https://drive.google.com/file/d/1pj2PSzr_ioJMRMlnx_u2TBXWFCrsH96D/view"
+         target="_blank">
+        📄 คู่มือประชาชน (ทะเบียนรถขนส่ง)
+      </a>
+
+      <!-- แบบคำขอ -->
+      <a class="menu-item"
+         href="https://spk.dlt.go.th/th/transport-license/80071"
+         target="_blank">
+        📝 แบบคำขอ (รถยนต์)
+      </a>
+
+      <a class="menu-item"
+         href="https://spk.dlt.go.th/th/transport-license/80072"
+         target="_blank">
+        📝 แบบคำขอ (รถขนส่ง)
+      </a>
+
+      <!-- ติดตั้งแผ่นป้าย -->
+      <a class="menu-item"
+         href="https://line.me/R/ti/p/@519ciybj"
+         target="_blank">
+        🚗 ติดตั้งแผ่นป้ายทะเบียน
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <button class="btn" onclick="window.history.back()">ย้อนกลับ</button>
+  </div>
+
+</div>
+
+</body>
+</html>
